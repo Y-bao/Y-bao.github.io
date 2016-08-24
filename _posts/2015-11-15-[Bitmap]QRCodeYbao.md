@@ -18,18 +18,18 @@ android二维码生成器 艺术二维码
 先看图
 ----
 
-<img src="http://img.blog.csdn.net/20160420030537857" width="300px" />
-<img src="http://img.blog.csdn.net/20160420030628714" width="300px" />
-<img src="http://img.blog.csdn.net/20160420030704640" width="300px" />
-<img src="http://img.blog.csdn.net/20160420030752078" width="300px" />
-<img src="http://img.blog.csdn.net/20160420030821001" width="300px" />
+<img src="http://img.blog.csdn.net/20160420030537857" width="30%" />
+<img src="http://img.blog.csdn.net/20160420030628714" width="30%" />
+<img src="http://img.blog.csdn.net/20160420030704640" width="30%" />
+<img src="http://img.blog.csdn.net/20160420030752078" width="30%" />
+<img src="http://img.blog.csdn.net/20160420030821001" width="30%" />
 
 说明
 ----
 
 说明一点微信二维码识别和ZXING，ZBAR都不同 
 
-![这里写图片描述](http://img.blog.csdn.net/20160420033220427)
+![](http://img.blog.csdn.net/20160420033220427)
 
 测试发现 
 微信中 定位区 的 点 有60%（大概）以上是被填充的 就能 识别为二维码 （方点，圆点，液化点都可识别）
@@ -98,7 +98,9 @@ zbar：未测试
         rect.bottom = endY;
         return cellWidth;
     }
+
 ```
+
 上面的代码通过遍历 BitMatrix（也可以使用图片的像素点，可以直接用一个生成好的二维码来生成新的艺术二维码） 找到第一个true值点 （如果用像素点，就是找到第一个带色点），该点的坐标就是起始坐标，找到同行最后一个true值点，该点的x就是 结束点的x，找到同列最后一个true值点，该点的y就是 结束点的y；
 从起始点开始，延对角线找，找到第一个false值点，该点到起始点的单一方向上的距离 就是 一个信息点的宽。
 
