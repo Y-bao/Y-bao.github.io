@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Moon Jekyll Theme"
-date:   2016-04-06
-excerpt: "Minimal, one column Jekyll theme for your blog."
+title:  "[View]PullRefreshView"
+date:   2015-11-15
+excerpt: "方便快捷的帮滑动控件添加弹性阻尼 和 下拉刷新、上拉加载的功能，支持所有纵向滑动控件（横向的工作中没遇到相应需求 所以没做），阻尼效果和下拉刷新、上拉加载的效果 都 支持重定义，拓展性强，支持连续滑动"
 project: true
 tag:
-- jekyll 
-- moon
-- blog
-- about
-- theme
+- PullRefreshView 
+- Fling
+- 弹性阻尼
+- 下拉刷新
+- 上拉加载
 comments: true
 ---
 
