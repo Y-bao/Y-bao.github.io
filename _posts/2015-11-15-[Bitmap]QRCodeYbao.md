@@ -12,15 +12,21 @@ tag:
 comments: true
 ---
 
-#android二维码生成器 艺术二维码
+android二维码生成器 艺术二维码
+===
 
-###先看图
-<img src="http://img.blog.csdn.net/20160420030537857" width="400px" />
-<img src="http://img.blog.csdn.net/20160420030628714" width="400px" />
-<img src="http://img.blog.csdn.net/20160420030704640" width="400px" />
-<img src="http://img.blog.csdn.net/20160420030752078" width="400px" />
-<img src="http://img.blog.csdn.net/20160420030821001" width="400px" />
-##说明
+先看图
+----
+
+<img src="http://img.blog.csdn.net/20160420030537857" width="300px" />
+<img src="http://img.blog.csdn.net/20160420030628714" width="300px" />
+<img src="http://img.blog.csdn.net/20160420030704640" width="300px" />
+<img src="http://img.blog.csdn.net/20160420030752078" width="300px" />
+<img src="http://img.blog.csdn.net/20160420030821001" width="300px" />
+
+说明
+----
+
 说明一点微信二维码识别和ZXING，ZBAR都不同 
 
 ![这里写图片描述](http://img.blog.csdn.net/20160420033220427)
@@ -33,7 +39,9 @@ ZXing中更具规格不同 有不一样 信息量较小的二维码 和微信一
 zbar：未测试
 
 
-###关键代码：
+关键代码：
+----
+
 确定个信息块的位置
 ``` java
      /**
