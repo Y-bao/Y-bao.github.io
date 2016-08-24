@@ -1,5 +1,5 @@
 # Site
-title:              Moon
+title:              Ybao
 bio:                'Minimal, one column jekyll theme.'
 description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
@@ -37,23 +37,23 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
-facebook:           username
-github:             username
+email:				392579823@qq.com
+#twitter:            username
+#facebook:           username
+github:             Y-bao
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+#instagram:          username
 #lastfm:            username
 #tumblr:            username
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #soundcloud:        username
-#weibo:             username
+weibo:             15889853559
 #flickr:            username
 #codepen:           username
 #keybase:           username
